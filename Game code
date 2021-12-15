@@ -1,4 +1,9 @@
+name_answer = str(input("What is your name? "))
+
 print('Welcome to "The Impossible Game"!')
 play_or_no = str(input("Are you up for the challenge?" ))
 if play_or_no == "Yes" or play_or_no == "yes" or if play_or_no == "y" or if play_or_no == "Y":
 
+elif play_or_no == "No" or play_or_no == "no" or play_or_no == "n" or play_or_no == "N":
+    print("Well, I guess you aren't up to the challenge...Goodbye, player!")
+    
