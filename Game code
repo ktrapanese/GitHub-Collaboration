@@ -1,3 +1,4 @@
-print("Hello")
+print('Welcome to "The Impossible Game"!')
+play_or_no = str(input("Are you up for the challenge?" ))
+if play_or_no == "Yes" or play_or_no == "yes" or if play_or_no == "y" or if play_or_no == "Y":
 
-yoohoo!
