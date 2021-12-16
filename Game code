@@ -11,3 +11,4 @@ else:
     print("Took you a bit, but yeah! You win! You're smart. Congrats! :D")
     actual_name = str(input("What is your name, madame or sire? I'm not kidding. I'm speaking seriously, now. "))
     print("I bid you adieu, " + actual_name + ". And don't forget you can always invite others to this code too. Thank you for your time!")
+    #Don't forget about comments
