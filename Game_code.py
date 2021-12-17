@@ -33,4 +33,8 @@ def game():
 def main ():
     welcome()
     game()
+
+if __name__== "__main__":
+    main() 
+
         
