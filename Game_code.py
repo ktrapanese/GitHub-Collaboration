@@ -1,12 +1,12 @@
-import random #this is to import random goodbye
+import random #this is to make the random goodbye function work
 
 
 def welcome():
-    '''this function will welcome the player ot the game'''
+    '''this function will welcome the player ot the game by printing a welcome statement'''
     print('Welcome to "The Impossible Game", named so because only 0.1% of people are able to win...So not impossible, probability speaking, but you get the point! The game is simple, I will ask you one simple question and you will give me one simple answer. Got it? Okay, let us begin.')
 
 def goodbyes(): 
-    '''a random goodbye will appear each time the game is over'''
+    '''This function will print random goodbye form the list of goodbyes when the game is over. '''
     goodbyes: list[str] = ["Goodbye", "Adios", "I bid you adieu", "Well...see you later"] #list of goodbyes
     goodbye = (goodbyes[random.randint(0,3)])
     actual_name = str(input("What is your name, madame or sire? I'm not kidding. I'm speaking seriously, now. "))
@@ -14,7 +14,6 @@ def goodbyes():
     return(goodbye)
 def game():
     '''This function will be the game part of the code.  It will ask the question over and over again until the player answers "No".  It will then say bye to the user.'''
-    
     print('Welcome to "The Impossible Game", named so because only 0.1% of people are able to win...So not impossible, probability speaking, but you get the point! The game is simple, I will ask you one simple question and you will give me one simple answer. Got it? Okay, let us begin.')
     answer = str(input("What is your name? "))
     if answer == "No" or answer == "no" or answer == "NO" or answer == "N" or answer == "n":
@@ -34,7 +33,7 @@ def main ():
     welcome()
     game()
 
-if __name__== "__main__":
+if __name__== "__main__": #Makes the main function work when code is run. 
     main() 
 
         
