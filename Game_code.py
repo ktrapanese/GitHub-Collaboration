@@ -11,6 +11,7 @@ def goodbyes(actual_name: str)->str:
     '''This function will print random goodbye form the list of goodbyes when the game is over. '''
     goodbyes: list[str] = ["Goodbye", "Adios", "I bid you adieu", "Well...see you later"] #list of goodbyes
     goodbye = (goodbyes[random.randint(0,3)])
+    print(goodbye + " " + actual_name)
     return goodbye + " " + actual_name
 
 
